@@ -28,6 +28,8 @@ function atualizaCronometro(){
     }
 }
 
+atualizaCronometro();
+
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
