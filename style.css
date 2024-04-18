@@ -57,7 +57,10 @@ body{
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
-
+.ativo{
+    background-color:var var(--botao-ativo);
+    border-bottom:4 px solid var crimson;
+}
 .botoes{
     display: block;
 }
