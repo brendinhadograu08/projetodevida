@@ -88,6 +88,11 @@ body{
 
 .aba-conteudo-titulo-secundario{
     text-align: center;
+    .contador{
+        font-size: 20px;
+        text-align: center;
+    }
+    
     color: var(--verde);
     text-transform: uppercase;
 }
