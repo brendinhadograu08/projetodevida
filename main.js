@@ -24,7 +24,7 @@ contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
-function calculaTempo(tempoObjetivo) {
+function calculaTempo(tempoObjetivo) 
   let tempoAtual = new Date();
   let tempoFinal = tempoObjetivo - tempoAtual;
   let segundos =Math .floor(tempoFinal/1000);
@@ -37,4 +37,3 @@ function calculaTempo(tempoObjetivo) {
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
   }
   
-
