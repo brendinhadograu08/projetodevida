@@ -44,7 +44,7 @@ function calculaTempo(tempoObjetivo)
   let dias= Math .floor(horas/24);
   let segundos = tempoFinal / 1000;
   function calculaTempo(tempoObjetivo) {
-    // código omitido…
+
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
   }
   
